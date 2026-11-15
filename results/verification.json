@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "source_hashes_match_training": true,
+  "track_overlap": 0,
+  "models": {
+    "baseline": {
+      "best_epoch": 20,
+      "test_correct": 12404,
+      "test_accuracy": 0.9821060965954077,
+      "checkpoint_sha256": "99d6d6f74e23fd8759b2c5c813a701aa1d596033e62f2ad97033047cb9eb6d6d"
+    },
+    "se": {
+      "best_epoch": 15,
+      "test_correct": 12321,
+      "test_accuracy": 0.9755344418052256,
+      "checkpoint_sha256": "cc3566e50eaca4cc1f8271c5e6a1435c22a9ea6c25c20ef02e3b53b99df0d39e"
+    },
+    "depthwise": {
+      "best_epoch": 19,
+      "test_correct": 11930,
+      "test_accuracy": 0.9445764053840063,
+      "checkpoint_sha256": "9b51b63a60f75cf07dba15a6fadb1252b8166af314db48b8f7ca8285f27352cc"
+    },
+    "depthwise_se": {
+      "best_epoch": 19,
+      "test_correct": 12041,
+      "test_accuracy": 0.9533650039588282,
+      "checkpoint_sha256": "6042f36afb4cacda0ffa3ccc175abf0b62b1ca9a881dda72ddcc1e88e0fd58bb"
+    }
+  },
+  "scene_and_predictions_consistent": true,
+  "validation_only_model_and_threshold_selection_verified": true,
+  "saved_labels_match_split_manifest": true,
+  "cpu_example_class_matches_gpu": true,
+  "baseline_project_target_met": true
+}

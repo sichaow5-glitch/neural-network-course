@@ -1,0 +1,12 @@
+{
+  "issue": "Torchvision 0.23 GTSRB downloader selects the IJCNN2011 training archive, not the final full training archive.",
+  "rejected_archive": "GTSRB-Training_fixed.zip",
+  "rejected_archive_md5": "513f3c79a4c5141765e10e952eaa2478",
+  "observed_rejected_training_count": 26640,
+  "observed_test_count": 12630,
+  "guard": "Data preparation requires exactly 39209 official final training images and 12630 official test images; the count assertion failed before caching or training.",
+  "resolution": "Use GTSRB_Final_Training_Images.zip from the same official ERDA archive; its training root is GTSRB/Final_Training/Images.",
+  "expected_final_training_sha256": "d32ac4b5fa9a1cbd1994768413902e8193599d9434cf0a8eb9cfd00a6d3a290c",
+  "checksum_reference": "https://galilai-group.github.io/stable-datasets/_modules/stable_datasets/images/gtsrb/",
+  "checksum_reference_note": "This expected SHA256 is a third-party published checksum. The archive bytes are downloaded from the official distribution; the checksum is not claimed to be issued by the original dataset authors."
+}
