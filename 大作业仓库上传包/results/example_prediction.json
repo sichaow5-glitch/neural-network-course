@@ -1,0 +1,13 @@
+{
+  "image": "results\\example_input.png",
+  "variant": "depthwise_se",
+  "class_id": 16,
+  "class_name": "Vehicles over 3.5 t prohibited",
+  "class_name_zh": "禁止3.5吨以上车辆通行",
+  "confidence": 0.9999693632125854,
+  "threshold": 0.85,
+  "requires_review": false,
+  "action_zh": "自动分类",
+  "checkpoint_sha256": "6042f36afb4cacda0ffa3ccc175abf0b62b1ca9a881dda72ddcc1e88e0fd58bb",
+  "input_scope": "已裁剪的单个交通标志图像"
+}
